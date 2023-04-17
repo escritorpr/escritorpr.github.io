@@ -17,30 +17,16 @@ layout: default
   {% endfor %}
 </div>
 
-<!-- pagination -->
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
+<!-- Pagination links -->
 
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="webjeda">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
-  </div>
+<div style="text-align: center; margin-top: 30px; margin-bottom: 25px;">
+  {% if paginator.previous_page %}
+    <a class="button" style="font-size: 12px;" title="Prev page" href="{{ paginator.previous_page_path }}"><span class="fas fa-chevron-circle-left"></span>&nbsp;Anteior</a>
+  {% endif %}
+  <span class="page_number ">
+    &nbsp;&nbsp;&nbsp;&nbsp;P&aacute;gina {{ paginator.page }} de {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    &nbsp;&nbsp;&nbsp;&nbsp;<a class="button" style="font-size: 12px;" title="Next page" href="{{ paginator.next_page_path }}"><span class="fas fa-chevron-circle-right"></span>&nbsp;Siguiente</a>
   {% endif %}
 </div>
