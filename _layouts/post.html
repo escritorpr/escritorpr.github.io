@@ -15,3 +15,12 @@ layout: default
 
   {% include disqus.html %}
 </article>
+
+<div style="text-align: center; margin-top: 10px; margin-bottom: 25px;">
+   {% if page.previous %}
+  <a class="button" style="font-size: 12px;" title="Prev post" href="{{  site.baseurl }}{{  page.previous.url }}"><span class="fas fa-chevron-circle-left"></span>&nbsp;Anterior</a>
+{% endif %}
+ {% if page.next %}
+  &nbsp;&nbsp;&nbsp;&nbsp;<a class="button" style="font-size: 12px;" title="Next post" href="{{  site.baseurl }}{{  page.next.url }}"><span class="fas fa-chevron-circle-right"></span>&nbsp;Siguiente</a>
+{% endif %}
+  </div>
