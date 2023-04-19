@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre mí
-permalink: /about/
+permalink: /Sobre mí/
 ---
 
 Hola, me llamo José Danois. Soy ministro del Evangelio, Esposo, Padre de Familia y Músico.
