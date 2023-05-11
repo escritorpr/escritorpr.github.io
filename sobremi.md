@@ -4,7 +4,7 @@ title: Sobre mí
 permalink: /sobremi/
 ---
 
-Hola, me llamo José Danois. Soy ministro del Evangelio, Esposo, Padre de Familia y Músico.
+Hola, me llamo José Danois. Soy ministro del Evangelio, Esposo, Padre de Familia y Músico (guitarrista).
 
 Junto a mi esposa pastoreo una pequeña [congregación](https://www.facebook.com/leondejudahumacao) en el pueblo de Humacao PR, donde compartimos el evangelio y la gracia de Dios. 
 
