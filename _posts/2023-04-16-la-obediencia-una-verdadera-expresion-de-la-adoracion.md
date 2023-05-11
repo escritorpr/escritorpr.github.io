@@ -7,7 +7,7 @@ thumbnail-img:
 share-img: 
 tags: [Reflexión, Devocional, Adoración]
 readtime: true
-published: true
+published: false
 ---
 
 Hoy en día nos hemos especializado en la adoración. Nos preocupa como ser mejores adoradores o como llevar una "buena" adoración en el servicio de la Iglesia. Incluso, existen libros y cursos sobre la Adoración. Todo esto responde al contexto de la experiencia cúltica o congregacional. Es decir, cuando los creyentes se reúnen en sus congregaciones locales o en algún evento para adorar. De ahí el surgimiento de los ministerios de adoración en nuestras iglesias con sus respectivas liturgias.
