@@ -7,7 +7,7 @@ thumbnail-img:
 share-img: 
 tags: [Reflexión Bíblica]
 readtime: true
-published: true
+published: false
 ---
 Estamos en los albores de un nuevo año 2023. El final 2022, nos lleva a reflexionar y hacer introspección. Miramos hacia atrás para ver el camino recorrido. Hacemos inventario de lo que fue y lo que no fue. Tal vez la desilusión y la tristeza llega a nuestros corazones, por las cosas que esperábamos que ocurrieran y no ocurrieron. Una petición no contestada, una palabra profética no cumplida, metas no alcanzadas. Es decir, teníamos expectativas. Incluso, expectativas de lo que pensábamos que Dios tenía que hacer y no lo hizo, según nuestra manera de pensar.
 
