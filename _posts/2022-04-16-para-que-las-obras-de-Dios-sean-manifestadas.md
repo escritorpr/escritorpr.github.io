@@ -7,7 +7,7 @@ thumbnail-img:
 share-img: 
 tags: [Reflexión Bíblica]
 readtime: true
-published: true
+published: false
 ---
 En cierta ocasión los discípulos le preguntaron a Jesús acerca de un ciego de nacimiento. ¿Quién pecó, este o sus padres, para que haya nacido ciego? A lo que Jesús contesto: No es que pecó éste, ni sus padres, sino para que las obras de Dios se manifiesten en él.
 
